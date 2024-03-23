@@ -1,5 +1,5 @@
 # PowerShell スクリプト
-$url = "http://127.0.0.1:8000/make_predictions"
+$url = "https://longterm-firstapi.onrender.com/make_predictions"
 
 $headers = @{
     'accept' = 'application/json'
