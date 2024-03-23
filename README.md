@@ -1,4 +1,4 @@
-長期コースのFastAPIパートの内容を実際に実装して、デプロイしたものです。
+長期コースのFastAPIパートの内容を実際に実装したものです。
 
 - FastAPI 基礎:https://www.kikagaku.ai/learning/learn/longterm3/api-basic/fastapi-basic/
 - FastAPI 実践:https://www.kikagaku.ai/learning/learn/longterm3/api-basic/fastapi-iris/
