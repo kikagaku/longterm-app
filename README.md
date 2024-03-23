@@ -18,16 +18,16 @@ uvicorn src.main:app --reload
 # ディレクトリ構成
 ```
 /
-├── models
-|  └──model_iris models.py で作成した分類モデル
+├── models/
+|  └──model_iris        # models.py で作成した分類モデル
 |       
 ├── src/
-|  └──_main.py 「FastAPI 基礎」で扱う内容
-|  └──main.py 「FastAPI 実践」で扱う内容
-|  └──model.py アヤメの花から分類モデルを作成するコードを記載
-├── .gitignore .gitで管理しないファイルを記載
-├── iris.csv アヤメの花のデータ
+|  └──_main.py          # 「FastAPI 基礎」で扱う内容
+|  └──main.py           # 「FastAPI 実践」で扱う内容
+|  └──model.py          # アヤメの花から分類モデルを作成するコードを記載
+├── .gitignore          # .gitで管理しないファイルを記載
+├── iris.csv            # アヤメの花のデータ
 ├── request_script.ps1
-├── requirements.txt 必要なライブラリを記載
-├── test_fastapi.ipynb 作成したAPIをテストするコードを記載
+├── requirements.txt    # 必要なライブラリを記載
+├── test_fastapi.ipynb  # 作成したAPIをテストするコードを記載
 ```
