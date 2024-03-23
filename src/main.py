@@ -14,7 +14,7 @@ class iris(BaseModel):
     petal_width: float
 
 # 学習済みのモデルの読み込み
-model = pickle.load(open('model/model_iris', 'rb'))
+model = pickle.load(open('models/model_iris', 'rb'))
 
 # トップページ
 @app.get('/')
