@@ -4,7 +4,7 @@
 - FastAPI 実践:https://www.kikagaku.ai/learning/learn/longterm3/api-basic/fastapi-iris/
 
 # 使用手順
-1. venv 等で、仮想環境を構築
+1. venv 等で、仮想環境を構築  
 なくてもよい。ただし、仮想環境を構築することを推奨
 2. requirements.txtの中のライブラリをインストール
 ```
