@@ -19,15 +19,17 @@ uvicorn src.main:app --reload
 ```
 /
 ├── models/
-|  └── model_iris       # models.py で作成した分類モデル
+|  └── model_iris                # models.py で作成した分類モデル
 |       
 ├── src/
-|  └── _main.py         # 「FastAPI 基礎」で扱う内容
-|  └── main.py          # 「FastAPI 実践」で扱う内容
-|  └── model.py         # アヤメの花から分類モデルを作成するコードを記載
-├── .gitignore          # .gitで管理しないファイルを記載
-├── iris.csv            # アヤメの花のデータ
+|  └── _main.py                  # 「FastAPI 基礎」で扱う内容
+|  └── main.py                   # 「FastAPI 実践」で扱う内容
+|  └── main_streamlit.py         # streamlit で作成した分類アプリケーション
+|  └── main_streamlit_fastapi.py # streamlitでフロント、FastAPIでバックエンドを作成した分類アプリケーション
+|  └── model.py                  # アヤメの花から分類モデルを作成するコードを記載
+├── .gitignore                   # .gitで管理しないファイルを記載
+├── iris.csv                     # アヤメの花のデータ
 ├── request_script.ps1
-├── requirements.txt    # 必要なライブラリを記載
-├── test_fastapi.ipynb  # 作成したAPIをテストするコードを記載
+├── requirements.txt             # 必要なライブラリを記載
+├── test_fastapi.ipynb           # 作成したAPIをテストするコードを記載
 ```
