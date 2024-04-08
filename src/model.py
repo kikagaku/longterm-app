@@ -1,3 +1,7 @@
+"""
+アヤメの花を分類するモデルを構築して保存
+"""
+
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
@@ -20,5 +24,5 @@ print(f'訓練データの accuracy: {model.score(x_train, t_train)}')
 print(f'検証データの accuracy: {model.score(x_test, t_test):.2f}')
 
 # モデルの保存
-# import pickle
-# pickle.dump(model, open('model/model_iris', 'wb'))
+import pickle
+pickle.dump(model, open('models/model_iris', 'wb'))

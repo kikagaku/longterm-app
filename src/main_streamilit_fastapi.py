@@ -1,3 +1,13 @@
+"""
+StreamlitとFastAPIを組み合わせたアプリケーションの例
+
+FastAPIサーバをローカルで動かす場合は、main.py を実行してから、下記の設定でStreamlitを起動してください。
+FASTAPI_SERVER = "http://127.0.0.1:8000"
+
+既に、デプロイ済みのFastAPIサーバを使用する場合は、下記の設定でStreamlitを起動してください。
+ASTAPI_SERVER = "https://longterm-firstapi.onrender.com"
+"""
+
 import streamlit as st
 import pandas as pd
 import requests

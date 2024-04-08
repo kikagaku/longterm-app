@@ -1,3 +1,7 @@
+"""
+streamlit run src/main_streamilit.py でstreamlitを起動
+"""
+
 import streamlit as st
 import pandas as pd
 import pickle
